@@ -211,6 +211,7 @@ a {
 .about__description {
     width: 500px;
     padding: 20px;
+    color: #fff;
 
 }
 
@@ -222,6 +223,11 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+    .header .logo {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .navb {
         display: none;
     }
@@ -234,4 +240,8 @@ a {
     .about__img {
         width: 80%;
     }
+    .about__description {
+        text-align: center;
+    }
+
 }
