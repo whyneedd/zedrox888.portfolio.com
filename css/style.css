@@ -14,12 +14,6 @@
 
 }
 
-::before,
-::after {
-    box-sizing: border-box;
-
-}
-
 html {
     scroll-behavior: smooth;
 
@@ -30,7 +24,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(41, 41, 41);
-    min-height: 100vh;
+    height: 100vh;
 
 }
 
@@ -52,8 +46,7 @@ a {
 
 .page-wrapper {
     width: 100%;
-    min-height: 100vh;
-
+    height: 100vh;
     position: relative;
 
 }
@@ -245,6 +238,10 @@ a {
 
 }
 
+.row__x {
+    display: flex;
+    flex-wrap: wrap;
+}
 .cart-footer {
     width: 25%;
     padding: 0 15px;
@@ -315,9 +312,10 @@ a {
 
     .about__description {
         text-align: center;
+        width: 100%;
     }
 
-    .row {
+    .row__x {
         flex-direction: column;
     }
 
