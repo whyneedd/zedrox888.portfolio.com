@@ -285,18 +285,18 @@ a {
     align-items: center;
     flex-direction: column;
     margin: 12px;
-    width: 560px;
-    height: 470px;
+    padding: 15px;
+    width: 470px;
+    height: 450px;
     border-radius: 15px;
     color: #fff;
     box-shadow: 0 15px 35px rgb(204, 203, 203, .48);
     background-color: rgb(31, 31, 31);
 }
 
-.pad {
+.pad2 {
     padding: 30px;
 }
-
 .title__projet {
     text-align: center;
     margin-bottom: 12px;
@@ -312,6 +312,7 @@ a {
     background-color: #fff;
 }
 .desc__projet {
+    text-align: center;
     width: 300px;
 }
 .banner__p {
