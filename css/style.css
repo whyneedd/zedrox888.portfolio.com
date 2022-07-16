@@ -134,7 +134,7 @@ a {
     width: 480px;
     height: 40Vh;
     padding: 10px;
-    left: 24%;
+    left: 12%;
     top: 34%;
 
 }
@@ -251,6 +251,11 @@ a {
 
 }
 
+.center {
+    justify-content: center;
+
+}
+
 .about__description {
     width: 500px;
     padding: 20px;
@@ -264,6 +269,66 @@ a {
     height: auto;
     border-radius: 12px;
 
+}
+
+.projet {
+    width: 100%;
+    min-height: 100vh;
+
+    position: relative;
+
+}
+
+.cart__p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+    width: 560px;
+    height: 470px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 15px 35px rgb(204, 203, 203, .48);
+    background-color: rgb(31, 31, 31);
+}
+
+.pad {
+    padding: 30px;
+}
+
+.title__projet {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.title__projet::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.desc__projet {
+    width: 300px;
+}
+.banner__p {
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 23px;
+    
+
+}
+
+.banner__p img {
+    width: 230px;
+    height: 230px;
 }
 
 .footer-page {
